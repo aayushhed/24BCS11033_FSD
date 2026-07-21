@@ -1,16 +1,45 @@
-# React + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Todo List application built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add a new task
+* Delete a task
+* Simple and easy-to-use interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* CSS
 
-## Expanding the Oxlint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository.
+2. Install dependencies.
+
+```bash
+npm install
+```
+
+3. Start the project.
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+src
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## Preview
+
+* Enter a task in the input box.
+* Click **Add** to add it to the list.
+* Click **Delete** to remove the task.
